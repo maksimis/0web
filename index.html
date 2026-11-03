@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>0web — скоро</title>
+  <meta name="description" content="0web — сайт компании скоро появится.">
+  <meta name="theme-color" content="#0b0f19">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="glow glow-one" aria-hidden="true"></div>
+  <div class="glow glow-two" aria-hidden="true"></div>
+
+  <header class="header">
+    <a class="logo" href="/" aria-label="0web — на главную">
+      <span class="logo-mark">0</span><span class="logo-text">web</span>
+    </a>
+    <span class="badge">в разработке</span>
+  </header>
+
+  <main class="hero">
+    <p class="eyebrow">0web.su</p>
+    <h1>Скоро здесь<br>появится сайт</h1>
+    <p class="lead">
+      Мы собираем команду и готовим запуск. Уже совсем скоро здесь будет
+      всё самое важное: продукт, команда и способы связаться с нами.
+    </p>
+
+    <div class="actions">
+      <a class="button button-primary" href="mailto:hello@0web.su">Написать нам</a>
+      <span class="hint">hello@0web.su</span>
+    </div>
+
+    <div class="cards" aria-label="Что будет на сайте">
+      <article class="card">
+        <span class="card-icon">01</span>
+        <h2>Продукт</h2>
+        <p>Расскажем, что мы делаем и для кого.</p>
+      </article>
+      <article class="card">
+        <span class="card-icon">02</span>
+        <h2>Команда</h2>
+        <p>Познакомим с людьми, которые это создают.</p>
+      </article>
+      <article class="card">
+        <span class="card-icon">03</span>
+        <h2>Контакты</h2>
+        <p>Добавим удобные способы связи.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year">2026</span> 0web</span>
+    <span class="footer-note">Сайт временно размещён на GitHub Pages</span>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
